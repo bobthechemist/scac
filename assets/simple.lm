@@ -1,0 +1,63 @@
+Language model created by QuickLM on Sun Dec 13 10:08:04 EST 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=16
+ngram 3=12
+
+\1-grams:
+-1.0000 </s> -0.3010
+-1.0000 <s> -0.2553
+-1.6021 ACTIVATE -0.2672
+-1.6021 CAPTAIN -0.2553
+-1.6021 DETECTOR -0.2553
+-1.6021 INSTRUMENT -0.2553
+-1.6021 OH -0.2900
+-1.6021 ON -0.2672
+-1.6021 SHUTDOWN -0.2672
+-1.6021 SOURCE -0.2553
+-1.1249 THE -0.2672
+-1.6021 TURN -0.2900
+
+\2-grams:
+-0.9031 <s> ACTIVATE 0.0000
+-0.9031 <s> OH 0.0000
+-0.9031 <s> SHUTDOWN 0.0000
+-0.9031 <s> TURN 0.0000
+-0.3010 ACTIVATE THE -0.2218
+-0.3010 CAPTAIN </s> -0.3010
+-0.3010 DETECTOR </s> -0.3010
+-0.3010 INSTRUMENT </s> -0.3010
+-0.3010 OH CAPTAIN 0.0000
+-0.3010 ON THE -0.2218
+-0.3010 SHUTDOWN THE -0.2218
+-0.3010 SOURCE </s> -0.3010
+-0.7782 THE DETECTOR 0.0000
+-0.7782 THE INSTRUMENT 0.0000
+-0.7782 THE SOURCE 0.0000
+-0.3010 TURN ON 0.0000
+
+\3-grams:
+-0.3010 <s> ACTIVATE THE
+-0.3010 <s> OH CAPTAIN
+-0.3010 <s> SHUTDOWN THE
+-0.3010 <s> TURN ON
+-0.3010 ACTIVATE THE DETECTOR
+-0.3010 OH CAPTAIN </s>
+-0.3010 ON THE SOURCE
+-0.3010 SHUTDOWN THE INSTRUMENT
+-0.3010 THE DETECTOR </s>
+-0.3010 THE INSTRUMENT </s>
+-0.3010 THE SOURCE </s>
+-0.3010 TURN ON THE
+
+\end\
