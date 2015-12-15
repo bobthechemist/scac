@@ -1,15 +1,14 @@
 from base import *
 from base.helper import *
 # Here we need to explicitly state which modules in the library are being used
-from library.detector import *
-from library.source import *
+from library.wiring import *
 import os
 
 # base name of the corpus (don't include .info suffix)
-corpus = "simple"
+corpus = "wiring"
 
 # Define the TTS engine
-say = tts.textonly
+say = tts.espeak
 
 # Connect functions to commands
 print "*** Creating command function dictionary" 

@@ -1,9 +1,9 @@
 #!/bin/sh
 
 PIPENAME=/tmp/speech
-FTEELOC=/home/pi/bin/ftee
+FTEELOC=/home/pi/scac/assets/ftee
 ADCDEV=plughw:1,0
-CORPUS=simple
+CORPUS=1483
 #LOG=/tmp/speech.log
 LOG=/dev/stdout
 if [ ! -p $PIPENAME ]

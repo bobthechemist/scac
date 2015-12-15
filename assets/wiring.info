@@ -1,0 +1,8 @@
+# Keyphrase
+OH CAPTAIN, keyphrase
+# Commands to turn on LEDs and read a photoresistor
+TURN YELLOW ON, turnYellowOn
+SHUT YELLOW OFF, turnYellowOff
+TURN RED ON, turnRedOn
+SHUT RED OFF, turnRedOff
+READ SENSOR, getData
